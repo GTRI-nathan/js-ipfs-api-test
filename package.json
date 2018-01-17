@@ -1,0 +1,14 @@
+{
+  "name": "testipfs",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "ipfs-api": "^17.3.0"
+  },
+  "devDependencies": {
+    "browserify": "latest"
+  },
+  "scripts": {
+    "build": "browserify --debug main.js > bundle.js"
+  }
+}
